@@ -21,16 +21,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/input_Username_username'), 'Admin')
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/input_Username_username'), 'nino12345')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/input_Password_password'), 
-    'hUKwJTbofgPU9eVlw/CnDQ==')
+    'cQbiH8MMfim05xs3A0IMsw==')
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/button_Login'))
+
+WebUI.takeScreenshot()
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/a_Admin'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/button_Add'))
 
@@ -67,6 +71,8 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_Oran
 
 WebUI.verifyElementText(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/p_Successfully Saved'), 'Successfully Saved')
 
+WebUI.takeScreenshot()
+
 WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus_1'), 
     'nino1234')
 
@@ -79,6 +85,8 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_Oran
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/button_Yes, Delete'))
 
 WebUI.verifyElementText(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/p_Successfully Deleted'), 'Successfully Deleted')
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/span_akash hsn'))
 
