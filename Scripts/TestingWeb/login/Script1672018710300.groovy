@@ -36,3 +36,5 @@ WebUI.verifyElementText(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/
 
 WebUI.takeScreenshot()
 
+
+

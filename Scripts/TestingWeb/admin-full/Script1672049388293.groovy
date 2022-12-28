@@ -34,6 +34,8 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/a_Admin'))
 
+WebUI.verifyElementText(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/h5_System Users'), 'System Users')
+
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/button_Add'))
@@ -67,6 +69,8 @@ WebUI.click(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/input_Confir
 WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input--focus'), 
     'cQbiH8MMfim05xs3A0IMsw==')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/button_Save'))
 
 WebUI.verifyElementText(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/p_Successfully Saved'), 'Successfully Saved')
@@ -78,15 +82,22 @@ WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_Or
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/button_Search'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad'))
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/button_Delete Selected'))
+
+WebUI.verifyElementText(findTestObject('info/Page_OrangeHRM/p_Are you Sure'), 'Are you Sure?')
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/button_Yes, Delete'))
 
 WebUI.verifyElementText(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/p_Successfully Deleted'), 'Successfully Deleted')
 
 WebUI.takeScreenshot()
+
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/span_akash hsn'))
 
