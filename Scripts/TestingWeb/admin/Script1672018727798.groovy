@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/div_-- Selec
 
 WebUI.click(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/div_Enabled-stat'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/input'), 'Test')
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/input'), 't')
 
 WebUI.delay(2)
 

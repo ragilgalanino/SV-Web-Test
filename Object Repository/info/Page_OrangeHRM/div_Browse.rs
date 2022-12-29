@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>31e4996d-5aaf-4425-a319-f4ece922f32f</webElementGuid>
+      <webElementGuid>6b2ca3e9-bf0e-4879-9ac2-dda9929286f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-file-button</value>
-      <webElementGuid>2e62ba53-7765-4cff-b065-309478819f1b</webElementGuid>
+      <webElementGuid>f0e92829-07ce-44e2-88cf-9b6b060464ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Browse</value>
-      <webElementGuid>87c6b093-2f83-4f8b-bbbd-c013e564d7fd</webElementGuid>
+      <webElementGuid>4a1b2c36-c83d-4757-b2c9-d360f6338919</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/div[@class=&quot;orangehrm-edit-employee&quot;]/div[@class=&quot;orangehrm-edit-employee-content&quot;]/div[@class=&quot;orangehrm-attachment&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-3 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-file-div oxd-file-div--active&quot;]/div[@class=&quot;oxd-file-button&quot;]</value>
-      <webElementGuid>b742accc-b41c-43ff-8d53-77afa627147b</webElementGuid>
+      <webElementGuid>b5fee7dd-4aed-40f3-8ed7-e0233b9cf33a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/form/div/div/div/div/div[2]/div/div</value>
-      <webElementGuid>503efe7f-1643-431d-b7ac-7612383ec2e6</webElementGuid>
+      <webElementGuid>1dd18a49-a8cb-4068-9db6-f8d54434ab7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select File'])[1]/following::div[3]</value>
-      <webElementGuid>f6543f85-f238-43ae-91e3-72392b093387</webElementGuid>
+      <webElementGuid>419adb6a-658a-4a89-8386-a79674bb69f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No file selected'])[1]/preceding::div[1]</value>
-      <webElementGuid>40b54b52-3c42-43a0-b72a-dca689f5f699</webElementGuid>
+      <webElementGuid>d4a72a10-8432-45a6-b0ab-0dde2a1bf89c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/preceding::div[2]</value>
-      <webElementGuid>f97a52ab-39b6-4f33-8cc5-76fc6c7a4206</webElementGuid>
+      <webElementGuid>2a9a2408-a911-474d-9301-8d3d1232fcbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Browse']/parent::*</value>
-      <webElementGuid>6a43937c-3d86-48bc-ab2a-0c3bfb064fd3</webElementGuid>
+      <webElementGuid>03f76a6e-f536-4c9a-b564-b88d26b9d4c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/form/div/div/div/div/div[2]/div/div</value>
-      <webElementGuid>f9e2704a-9d46-473e-9900-964a7e4f0120</webElementGuid>
+      <webElementGuid>3bb9e5b3-0a5c-4902-92d3-e4c12a0506f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Browse' or . = 'Browse')]</value>
-      <webElementGuid>dbd1a187-2206-4f82-96ef-73a0e5d12414</webElementGuid>
+      <webElementGuid>d73b2380-216b-4419-ab70-ec7eaafda9e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div[3]/div/form/div/div/div/div/div[2]/div/div</value>
-      <webElementGuid>d00fe3c4-ac8b-4710-a30b-3d356db79d0b</webElementGuid>
+      <webElementGuid>8c518e11-cd61-4a71-9c88-771c1d0a8a0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/form/div/div/div/div/div[2]/div/div</value>
-      <webElementGuid>7814015c-5d49-4c3a-8c19-57ffa12ca89b</webElementGuid>
+      <webElementGuid>c79efb16-e870-43f0-80e4-b4c6571652c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

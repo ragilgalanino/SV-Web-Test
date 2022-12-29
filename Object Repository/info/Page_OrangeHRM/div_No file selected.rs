@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div[3]/div/form/div/div/div/div/div[2]/div/div[2]</value>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/form/div/div/div/div/div[2]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7f2b2636-5dec-452f-a4b3-8c9043e1cab6</webElementGuid>
+      <webElementGuid>ebd7cc09-a832-479e-9689-a74f3acf1583</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-file-input-div</value>
-      <webElementGuid>3dc2f187-fbd2-4e21-8d97-35b2814fbc1b</webElementGuid>
+      <webElementGuid>04e000fb-32da-4eed-b5f1-0ace0a5790e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>No file selected</value>
-      <webElementGuid>2c2691af-e6de-4807-9400-0e086b78e5fb</webElementGuid>
+      <webElementGuid>a8069053-4fea-4ebc-81a7-c51e1cdf8227</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +46,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/div[@class=&quot;orangehrm-edit-employee&quot;]/div[@class=&quot;orangehrm-edit-employee-content&quot;]/div[@class=&quot;orangehrm-attachment&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-3 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-file-div oxd-file-div--active&quot;]/div[@class=&quot;oxd-file-input-div&quot;]</value>
-      <webElementGuid>9f0ae59c-c683-4821-8214-01fb1cf13df2</webElementGuid>
+      <webElementGuid>0770bd85-2815-4c6e-931d-34a4235b86b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div[3]/div/form/div/div/div/div/div[2]/div/div[2]</value>
-      <webElementGuid>33bbb1c7-fddd-4ddc-9008-d3362667b020</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/form/div/div/div/div/div[2]/div/div[2]</value>
+      <webElementGuid>9b47fbe8-b5e8-4ff8-bd81-31532d9e9465</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Browse'])[1]/following::div[1]</value>
-      <webElementGuid>70b26146-d2d6-4d58-b2ce-45152526ba70</webElementGuid>
+      <webElementGuid>e8f7f236-50be-4a8d-8690-100ce8d50cde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select File'])[1]/following::div[4]</value>
-      <webElementGuid>c6162a1d-85e4-486e-94b8-c4bc71997b99</webElementGuid>
+      <webElementGuid>9dbc9601-73cb-4645-81a7-9bbf7d27f04f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/preceding::div[1]</value>
-      <webElementGuid>00891f52-c24f-496f-990e-694773e61628</webElementGuid>
+      <webElementGuid>8c9d5a77-cc03-4bb7-8383-600bdeee8f76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,15 +86,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='No file selected']/parent::*</value>
-      <webElementGuid>f0204b32-ebdf-44c2-88ed-0824b0dd69f7</webElementGuid>
+      <webElementGuid>c31dc0ef-6637-4c2c-b898-5f8e466f2639</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/form/div/div/div/div/div[2]/div/div[2]</value>
-      <webElementGuid>1555cf2f-246e-4d61-978f-ed1a086b1660</webElementGuid>
+      <value>//div/div/div/div[2]/div/div[2]</value>
+      <webElementGuid>e6aa8b57-2ce4-474e-b214-aaff17f38df7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,22 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'No file selected' or . = 'No file selected')]</value>
-      <webElementGuid>dc426331-b3ac-4b76-ae80-cc2dc6dbec08</webElementGuid>
+      <webElementGuid>da977a5c-e5a0-4d69-b45e-6886895720d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div[3]/div/form/div/div/div/div/div[2]/div/div[2]</value>
+      <webElementGuid>24c898da-e4e0-4228-a407-990949e9fdfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/form/div/div/div/div/div[2]/div/div[2]</value>
+      <webElementGuid>0774b968-a531-4968-8557-43fe63bc6ca2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

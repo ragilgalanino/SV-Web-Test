@@ -48,7 +48,7 @@ WebUI.click(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/div_-- Selec
 
 WebUI.click(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/div_Enabled-stat'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/input'), 'Test')
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/input'), 't')
 
 WebUI.delay(2)
 
@@ -97,7 +97,6 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_Oran
 WebUI.verifyElementText(findTestObject('Page_OrangeHRM/admin-new/Page_OrangeHRM/p_Successfully Deleted'), 'Successfully Deleted')
 
 WebUI.takeScreenshot()
-
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/admin-new/Page_OrangeHRM/span_akash hsn'))
 

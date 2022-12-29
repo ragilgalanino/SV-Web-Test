@@ -54,6 +54,8 @@ WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/nickname'), Keys.chord(Keys.B
 
 WebUI.setText(findTestObject('info/Page_OrangeHRM/nickname'), 'Ranti In The Sky')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('info/Page_OrangeHRM/field-employ'))
 
 WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/field-employ'), Keys.chord(Keys.CONTROL, 'a'))
@@ -98,6 +100,8 @@ WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/sin_number'), Keys.chord(Keys
 
 WebUI.setText(findTestObject('info/Page_OrangeHRM/sin_number'), '7777')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('info/Page_OrangeHRM/negara'))
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/div_Indonesian'))
@@ -122,6 +126,8 @@ WebUI.scrollToPosition(500, 500)
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/gender'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('info/Page_OrangeHRM/military'))
 
 WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/military'), Keys.chord(Keys.CONTROL, 'a'))
@@ -132,6 +138,8 @@ WebUI.setText(findTestObject('info/Page_OrangeHRM/military'), 'None')
 
 WebUI.click(findTestObject('Object Repository/info/Page_OrangeHRM/i_Yes_oxd-icon bi-check oxd-checkbox-input-icon'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/info/Page_OrangeHRM/button_Save'))
 
 WebUI.verifyElementText(findTestObject('info/Page_OrangeHRM/p_Successfully_Updated_info'), 'Successfully Updated')
@@ -140,14 +148,27 @@ WebUI.click(findTestObject('info/Page_OrangeHRM/goldar'))
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/div_O'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('info/Page_OrangeHRM/save-goldar'))
+
+WebUI.takeScreenshot()
 
 WebUI.verifyElementText(findTestObject('info/Page_OrangeHRM/p_Successfully_Saved_goldar'), 'Successfully Saved')
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/add-att'))
 
 //WebUI.click(findTestObject('info/Page_OrangeHRM/div_Browse'))
-//WebUI.uploadFile(findTestObject('info/Page_OrangeHRM/div_Browse'), 'D:\\test.txt')
+WebUI.uploadFile(findTestObject('info/Page_OrangeHRM/upload'), 'D:\\test.txt')
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('info/Page_OrangeHRM/button_Save_file'))
+
+WebUI.verifyElementText(findTestObject('info/Page_OrangeHRM/p_Successfully Saved_file'), 'Successfully Saved')
+
+WebUI.takeScreenshot()
+
 //WebUI.delay(3)
 WebUI.scrollToPosition(0, 0)
 
@@ -201,6 +222,8 @@ WebUI.click(findTestObject('info/Page_OrangeHRM/panahnegara'))
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/negara_indo'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('info/Page_OrangeHRM/no_rumah'))
 
 WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/no_rumah'), Keys.chord(Keys.CONTROL, 'a'))
@@ -225,7 +248,9 @@ WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/no_kantor'), Keys.chord(Keys.
 
 WebUI.setText(findTestObject('info/Page_OrangeHRM/no_kantor'), '112-898-7612')
 
-WebUI.scrollToPosition(999999, 999999)
+WebUI.takeScreenshot()
+
+WebUI.scrollToPosition(500, 500)
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/email_kantor'))
 
@@ -244,8 +269,6 @@ WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/email_lain'), Keys.chord(Keys
 WebUI.setText(findTestObject('info/Page_OrangeHRM/email_lain'), 'rantiInTheSky@yahoo.com')
 
 WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('info/Page_OrangeHRM/button_Save_kontak'))
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/button_Save_kontak'))
 

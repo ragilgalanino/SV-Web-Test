@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.oxd-file-div.oxd-file-div--active</value>
+         <value>div.oxd-file-div.oxd-file-div--focus</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>aa7dd4f4-a11c-49d7-a577-7bde03d2772e</webElementGuid>
+      <webElementGuid>92b6aa86-23be-468d-b5bf-3c49fabdf3c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-file-div oxd-file-div--active</value>
-      <webElementGuid>0b4a0395-38b6-440e-8b5b-f313b473c921</webElementGuid>
+      <value>oxd-file-div oxd-file-div--focus</value>
+      <webElementGuid>91bce55c-99e8-42b3-ad69-090c0c3a1df3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +38,15 @@
       <name>text</name>
       <type>Main</type>
       <value>BrowseNo file selected</value>
-      <webElementGuid>1dccf4fb-b6ad-4afb-bc85-e5ae8155b6c4</webElementGuid>
+      <webElementGuid>d596c7f3-c31c-47d0-9403-cc37f01a8169</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/div[@class=&quot;orangehrm-edit-employee&quot;]/div[@class=&quot;orangehrm-edit-employee-content&quot;]/div[@class=&quot;orangehrm-attachment&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-3 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-file-div oxd-file-div--active&quot;]</value>
-      <webElementGuid>2002ea14-f794-44f7-968d-ef094ebc0aae</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/div[@class=&quot;orangehrm-edit-employee&quot;]/div[@class=&quot;orangehrm-edit-employee-content&quot;]/div[@class=&quot;orangehrm-attachment&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-3 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-file-div oxd-file-div--focus&quot;]</value>
+      <webElementGuid>575e8d59-1cab-46db-9117-093de3057bfe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div[3]/div/form/div/div/div/div/div[2]/div</value>
-      <webElementGuid>0312bc47-1082-45ff-ac2e-9e32b23c0308</webElementGuid>
+      <webElementGuid>a5698f68-11e8-48f2-b1d7-928b53d75ad1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select File'])[1]/following::div[2]</value>
-      <webElementGuid>f325b37d-e709-4663-80e6-31353fed3a81</webElementGuid>
+      <webElementGuid>c58272b6-2e28-4c2b-8107-632ff4ec387f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/form/div/div/div/div/div[2]/div</value>
-      <webElementGuid>53212746-a5e6-48b9-a1cd-478205687e9f</webElementGuid>
+      <webElementGuid>fbb6aa29-116f-471b-bc24-c10948450ac8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'BrowseNo file selected' or . = 'BrowseNo file selected')]</value>
-      <webElementGuid>f4abcb70-8a51-4683-a3cd-4cc1aa1710fb</webElementGuid>
+      <webElementGuid>5ca60be0-bbcc-4101-9827-d0bc77f36c93</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
