@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+int RN = ((Math.random() * 10000) as int)
+
 
 WebUI.openBrowser('')
 
@@ -74,7 +76,7 @@ WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/field-employ'), Keys.chord(Ke
 
 WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/field-employ'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('info/Page_OrangeHRM/field-employ'), '7799')
+WebUI.setText(findTestObject('info/Page_OrangeHRM/field-employ'), '' + RN)
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/pther-id_field'))
 
@@ -82,7 +84,7 @@ WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/pther-id_field'), Keys.chord(
 
 WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/pther-id_field'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('info/Page_OrangeHRM/pther-id_field'), '9977')
+WebUI.setText(findTestObject('info/Page_OrangeHRM/pther-id_field'), '' + RN)
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/DriverL'))
 
@@ -90,7 +92,7 @@ WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/DriverL'), Keys.chord(Keys.CO
 
 WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/DriverL'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('info/Page_OrangeHRM/DriverL'), '14045')
+WebUI.setText(findTestObject('info/Page_OrangeHRM/DriverL'), '' +  RN)
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/kalender'))
 
@@ -102,7 +104,7 @@ WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/ssn_number'), Keys.chord(Keys
 
 WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/ssn_number'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('info/Page_OrangeHRM/ssn_number'), '5555')
+WebUI.setText(findTestObject('info/Page_OrangeHRM/ssn_number'), '' + RN)
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/sin_number'))
 
@@ -110,7 +112,7 @@ WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/sin_number'), Keys.chord(Keys
 
 WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/sin_number'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('info/Page_OrangeHRM/sin_number'), '7777')
+WebUI.setText(findTestObject('info/Page_OrangeHRM/sin_number'), '' + RN)
 
 WebUI.takeScreenshot()
 
@@ -228,7 +230,7 @@ WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/kodepos'), Keys.chord(Keys.CO
 
 WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/kodepos'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('info/Page_OrangeHRM/kodepos'), '1978')
+WebUI.setText(findTestObject('info/Page_OrangeHRM/kodepos'), '' + RN )
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/panahnegara'))
 
@@ -242,7 +244,7 @@ WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/no_rumah'), Keys.chord(Keys.C
 
 WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/no_rumah'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('info/Page_OrangeHRM/no_rumah'), '0888877766')
+WebUI.setText(findTestObject('info/Page_OrangeHRM/no_rumah'), '' + RN )
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/no_hp'))
 
@@ -250,7 +252,7 @@ WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/no_hp'), Keys.chord(Keys.CONT
 
 WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/no_hp'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('info/Page_OrangeHRM/no_hp'), '0888888888')
+WebUI.setText(findTestObject('info/Page_OrangeHRM/no_hp'), '' + RN )
 
 WebUI.click(findTestObject('info/Page_OrangeHRM/no_kantor'))
 
@@ -258,7 +260,7 @@ WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/no_kantor'), Keys.chord(Keys.
 
 WebUI.sendKeys(findTestObject('info/Page_OrangeHRM/no_kantor'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('info/Page_OrangeHRM/no_kantor'), '112-898-7612')
+WebUI.setText(findTestObject('info/Page_OrangeHRM/no_kantor'), '' + RN )
 
 WebUI.takeScreenshot()
 
